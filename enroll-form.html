@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VanArya Academy</title>
+    <link rel="stylesheet" href="enroll-form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div dir="rtl" class="container navbox">
+      <a class="nav-a" href="" >خانه</a>
+      <a class="nav-a active" href="" >ثبت نام</a>
+      <a class="nav-a" href="">دوره ها</a>
+      <a class="nav-a" href="">اساتید</a>
+      <a class="nav-a" href="">فروشگاه</a>
+      <a class="nav-a" href="">نمایشگاه مجازی</a>
+    </div>
+    <h1>فرم ثبت نام</h1>
+    <div class="box form-box">
+      <form dir="rtl" class="center">
+        <div class="box enroll-img">
+          <img
+            class="form-icon"
+            src="/image/—Pngtree—enrollee line icon_9012580.png"
+            alt=""
+          />
+        </div>
+        <div class="form-control">
+          <label for="name">نام و نام خانوادگی</label>
+          <input
+            type="text"
+            id="name"
+            autofocus
+            placeholder="نام خود را وارد کنید"
+          />
+        </div>
+        <div class="form-control">
+          <label for="gender"> جنسیت</label>
+          <div class="box2">
+            <label for="gender">آقا</label>
+            <input
+              class="gender-input"
+              type="radio"
+              name="gender"
+              id="male"
+              value="0"
+            />
+          </div>
+          <div class="box2">
+            <label for="gender">خانم</label>
+            <input
+              class="gender-input"
+              type="radio"
+              name="gender"
+              id="female"
+              value="1"
+            />
+          </div>
+        </div>
+        <div class="form-control">
+          <label for="age">سن</label>
+          <input type="date" id="age" />
+        </div>
+        <div class="form-control">
+          <label for="courses">دوره مد نظر خود را انتخاب کنید</label>
+          <select id="courses">
+            <option value="">انتخاب دوره آموزشی</option>
+            <option value="0">مقرنس کاری</option>
+            <option value="1">معرق کاری</option>
+            <option value="2">مشبک کاری</option>
+            <option value="3">ملمع کاری</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="email">ایمیل</label>
+          <input type="email" id="email" placeholder="ایمیل خود را وارد کنید" />
+        </div>
+        <div class="form-control">
+          <label for="password">رمز عبور</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="رمز عبور خود را وارد کنید"
+          />
+        </div>
+        <div class="form-control">
+          <label for="userimage">لطفا تصویر خود را بارگذاری نمایید </label>
+          <input type="file" id="userimage" />
+        </div>
+        <div class="form-control">
+          <label class="policy" for="policy">
+            <em
+              ><strong><a href="/text.html">قوانین</a></strong></em
+            >
+            سایت را خوانده‌‌ام و با آن موافقت می کنم
+          </label>
+          <input type="checkbox" id="policy" />
+        </div>
+        <div class="form-control">
+          <button class="form-button" type="submit">تایید و ثبت نام</button>
+          <button class="form-button" type="reset">ورود مجدد اطلاعات</button>
+        </div>
+      </form>
+    </div>
+    <div class="container footerbox">
+      <div class="row" dir="rtl">
+        <li class="footer">
+          <button class="footer-button">
+            <img
+              class="footer-icon"
+              src="/image/global.png"
+              alt="news-button"
+            />
+          </button>
+          <a href=""> تازه ها </a>
+        </li>
+        <li class="footer">
+          <button class="footer-button">
+            <img
+              class="footer-icon"
+              src="/image/home-page.png"
+              alt="homepage-button"
+            />
+          </button>
+          <a href=""> خانه</a>
+        </li>
+        <li class="footer">
+          <button class="footer-button">
+            <img
+              class="footer-icon"
+              src="/image/telephone-operator.png"
+              alt="contactus-button"
+            />
+          </button>
+          <a href=""> تماس با ما </a>
+        </li>
+        <li class="footer">
+          <button class="footer-button">
+            <img
+              class="footer-icon"
+              src="/image/location-pin.png"
+              alt="aboutus-button"
+            />
+          </button>
+          <a href=""> درباره ما </a>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>

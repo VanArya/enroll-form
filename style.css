@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+title{
+  position: absolute;
+  left: 45%;
+}
+img {
+    width: 420px;
+    height: 350px;
+    object-fit: contain;
+    object-position: right;
+    border-radius: 15%;
+    position: relative;
+    left: 100%
+  }
+  .media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  video {
+    width: 450px;
+    height: 220px;
+    border: 3px solid gold;
+    box-sizing: border-box;
+    
+  }
+  audio {
+    width: 400px;
+  }
+  ul {
+    font-size: 30px;
+    color: blueviolet;
+    list-style: circle;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  table{border: 3px solid gold;
+  display: inline-block;};
+  thead{
+    display: block;
+  }
+  td {
+    font-size: 20px;
+    text-indent: 5px;
+    border: 3px solid salmon;
+    border-collapse: collapse;
+    text-align: left;
+    display: block;
+  }
+  th {
+    text-align: left;
+    font-size: 25px solid;
+    text-align: center;
+  }
+  tbody{
+    display: flex;
+  }
+
+  #HTML > p {
+    color:  red;
+    font-size: 30px;
+  }
+  .HTML + p {
+    color: blue;
+  }
+  #product:visited{
+    color: darkmagenta;
+  }
+#product:hover{
+  color:darkgreen
+}
+#product :nth-child(odd){
+  color:red;
+}
+a:hover{
+  color: brown;
+}
+
+a:visited{
+  color: deeppink;
+  
+}
+.pseudo-elements::first-letter{
+  font-size: 50px;
+}
+.cdiv1{
+  background-color: gold;
+}
+.cdiv2{background-color: saddlebrown;}
+.container{display: flex;
+flex-direction: column;}
+ @media screen and (min-width:700px){
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+ }
+ @font-face {
+   font-family: "parastoo";
+   font-weight: normal;
+   font-style: normal;
+   src: url("fonts/Parastoo.woff2") format("woff2");
+ }
+ .persian{
+  font-family: "parastoo";
+  font-size: 1.3rem;
+}
